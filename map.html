@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c0158f72174d4fee8854ae1c2400abab {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c0158f72174d4fee8854ae1c2400abab" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c0158f72174d4fee8854ae1c2400abab = L.map(
+        'map_c0158f72174d4fee8854ae1c2400abab', {
+        center: [40.7831, -73.7875],
+        zoom: 11.5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_6047e2a6466f4df1947211ad125505a0 = L.tileLayer(
+        'http://{s}.tiles.mapbox.com/v4/mapbox.pencil/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibW5taWxsZXIiLCJhIjoiY2s0Ymg0c2x6MGRkajNucXFwaGZjNW9kaCJ9.ObOzhMc4c9Ez_5djsfe5NQ',
+        {
+        "attribution": "MapBox",
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+    
+        var marker_09279ae7b8584df0b86863a31904b45e = L.marker(
+            [40.831786, -73.745639],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_b3d09b449eef4c0a9fc0871e8b6459a6 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09279ae7b8584df0b86863a31904b45e.setIcon(icon_b3d09b449eef4c0a9fc0871e8b6459a6);
+            
+    
+            var popup_9bd026d674d64c4a8a6da56b90b718e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c875800bae648eaab354b847389e719 = $(`<div id="html_5c875800bae648eaab354b847389e719" style="width: 100.0%; height: 100.0%;"><b>Carraway's House</b></div>`)[0];
+                popup_9bd026d674d64c4a8a6da56b90b718e6.setContent(html_5c875800bae648eaab354b847389e719);
+            
+
+            marker_09279ae7b8584df0b86863a31904b45e.bindPopup(popup_9bd026d674d64c4a8a6da56b90b718e6)
+            ;
+
+            
+        
+    
+        var marker_9d4d3dee7800469ea5087dcc82f1d5b5 = L.marker(
+            [40.844449, -73.731998],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_72e36d931e814fb79ff142400bea0a80 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d4d3dee7800469ea5087dcc82f1d5b5.setIcon(icon_72e36d931e814fb79ff142400bea0a80);
+            
+    
+            var popup_c3304066e45a47a094dce0fb15c1371e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3a6f27c51a574c12ad11f5262a207f60 = $(`<div id="html_3a6f27c51a574c12ad11f5262a207f60" style="width: 100.0%; height: 100.0%;"><b>Buchanan's Mansion</b></div>`)[0];
+                popup_c3304066e45a47a094dce0fb15c1371e.setContent(html_3a6f27c51a574c12ad11f5262a207f60);
+            
+
+            marker_9d4d3dee7800469ea5087dcc82f1d5b5.bindPopup(popup_c3304066e45a47a094dce0fb15c1371e)
+            ;
+
+            
+        
+    
+        var marker_478eb53c4e0f42b3adfdb5bfa6d94147 = L.marker(
+            [40.831112, -73.74408],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_92ddb03775c84fd4a7114f315503b787 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_478eb53c4e0f42b3adfdb5bfa6d94147.setIcon(icon_92ddb03775c84fd4a7114f315503b787);
+            
+    
+            var popup_5ef48508c4674d11a68059d53e492175 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_83382ce32940419d9f126d0c2d92b2d6 = $(`<div id="html_83382ce32940419d9f126d0c2d92b2d6" style="width: 100.0%; height: 100.0%;"><b>Gatsby's Mansion</b></div>`)[0];
+                popup_5ef48508c4674d11a68059d53e492175.setContent(html_83382ce32940419d9f126d0c2d92b2d6);
+            
+
+            marker_478eb53c4e0f42b3adfdb5bfa6d94147.bindPopup(popup_5ef48508c4674d11a68059d53e492175)
+            ;
+
+            
+        
+    
+        var marker_aadd0bd90cab4fc498defc48eb6d2191 = L.marker(
+            [40.764803, -73.978528],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_b154cd7388954b53be93789d5335c2d2 = L.AwesomeMarkers.icon({
+                    icon: 'hotel',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aadd0bd90cab4fc498defc48eb6d2191.setIcon(icon_b154cd7388954b53be93789d5335c2d2);
+            
+    
+            var popup_4593af466e134f1b9d42490f707b211a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_155c1acb5e1f45489ae642fdc33247b5 = $(`<div id="html_155c1acb5e1f45489ae642fdc33247b5" style="width: 100.0%; height: 100.0%;"><b>Tom & Myrtle’s apartment</b></div>`)[0];
+                popup_4593af466e134f1b9d42490f707b211a.setContent(html_155c1acb5e1f45489ae642fdc33247b5);
+            
+
+            marker_aadd0bd90cab4fc498defc48eb6d2191.bindPopup(popup_4593af466e134f1b9d42490f707b211a)
+            ;
+
+            
+        
+    
+        var marker_a0b44a6ba3ed4d40845c543a2b849213 = L.marker(
+            [40.777902, -73.799613],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_9a6ee93eb2cb4c89a3316fba01a0f6d8 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a0b44a6ba3ed4d40845c543a2b849213.setIcon(icon_9a6ee93eb2cb4c89a3316fba01a0f6d8);
+            
+    
+            var popup_6d2b8eca426b468ea58477778213f21e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7c388b1ee90d46e5b129a932b655b63c = $(`<div id="html_7c388b1ee90d46e5b129a932b655b63c" style="width: 100.0%; height: 100.0%;"><b>The eyes of Doctor T. J. Eckleburg</b></div>`)[0];
+                popup_6d2b8eca426b468ea58477778213f21e.setContent(html_7c388b1ee90d46e5b129a932b655b63c);
+            
+
+            marker_a0b44a6ba3ed4d40845c543a2b849213.bindPopup(popup_6d2b8eca426b468ea58477778213f21e)
+            ;
+
+            
+        
+    
+        var marker_ac19dc2e7c0f469ba7750dc882940fb9 = L.marker(
+            [40.781901, -73.809565],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c0158f72174d4fee8854ae1c2400abab);
+        
+    
+
+                var icon_94369f9b6fbd472aadffa0d91db0acd5 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'black',
+                    markerColor: 'lightgray',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ac19dc2e7c0f469ba7750dc882940fb9.setIcon(icon_94369f9b6fbd472aadffa0d91db0acd5);
+            
+    
+            var popup_a35c1b1e00c743819c1a560d177bc1c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6cea5e79fb7447fb6691da60bcb2484 = $(`<div id="html_c6cea5e79fb7447fb6691da60bcb2484" style="width: 100.0%; height: 100.0%;"><b>Wilson’s garage,</b></div>`)[0];
+                popup_a35c1b1e00c743819c1a560d177bc1c8.setContent(html_c6cea5e79fb7447fb6691da60bcb2484);
+            
+
+            marker_ac19dc2e7c0f469ba7750dc882940fb9.bindPopup(popup_a35c1b1e00c743819c1a560d177bc1c8)
+            ;
+
+            
+        
+    
+
+            var circle_baf982e8b299432f8d5cffd7225be335 = L.circle(
+                [40.773205, -73.808068],
+                {
+  "bubblingMouseEvents": true,
+  "color": "gray",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gray",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2000,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c0158f72174d4fee8854ae1c2400abab);
+            
+    
+            var popup_861c7ae47e6a4416a29804e655f8fc10 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48b8bda92f0146e9a88b61dcac3318bc = $(`<div id="html_48b8bda92f0146e9a88b61dcac3318bc" style="width: 100.0%; height: 100.0%;">The Valley of Ashes</div>`)[0];
+                popup_861c7ae47e6a4416a29804e655f8fc10.setContent(html_48b8bda92f0146e9a88b61dcac3318bc);
+            
+
+            circle_baf982e8b299432f8d5cffd7225be335.bindPopup(popup_861c7ae47e6a4416a29804e655f8fc10)
+            ;
+
+            
+        
+</script>
